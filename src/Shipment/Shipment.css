@@ -1,0 +1,52 @@
+.shipment {
+  margin: 0px 15px 10px 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.shipment-content {
+  display: flex;
+}
+.shipment-content .hamburger {
+  font-size: 200%;
+  cursor: pointer;
+}
+.shipment-content p {
+  padding-top: 6px;
+  margin-left: 5px;
+}
+
+.item {
+  border: 1px solid white;
+  margin: 15px 0;
+  position: relative;
+  padding: 3px;
+}
+
+.add-item-div {
+  display: inline-flex;
+  margin-top: 10px;
+}
+.item-input input {
+  margin-left: 5px;
+  height: 30px;
+  width: 80px;
+}
+@media (min-width: 350px) {
+  .item-input input {
+    width: 100px;
+  }
+}
+@media (min-width: 430px) {
+  .shipment {
+    width: 400px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .item-input input {
+    width: 150px;
+  }
+}

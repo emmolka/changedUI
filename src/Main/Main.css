@@ -1,0 +1,84 @@
+.logout-div {
+  height: 50px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 2%;
+  position: relative;
+  margin-left: 50%;
+  margin-top: 5px;
+  transform: translateX(-50%);
+}
+.logout-div:hover {
+  background-color: #410c26;
+}
+.logout-div button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.logout-div p {
+  font-size: 150%;
+}
+.add-shipment-div {
+  color: white;
+  cursor: pointer;
+}
+.add-shipment-div {
+  margin: 10px 15px 10px 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.normal-cursor {
+  cursor: default;
+}
+
+.add-shipment-div-items {
+  display: flex;
+}
+.add-shipment-div-items p {
+  padding-top: 6px;
+  margin-left: 5px;
+}
+.add-shipment {
+  padding: 3px;
+  margin-left: 15px;
+}
+
+.shipment-input input {
+  margin-left: 49%;
+  transform: translateX(-50%);
+  height: 30px;
+  width: 80px;
+}
+.openShip {
+  font-size: 200%;
+  cursor: pointer;
+}
+.add-shipment-div .add-button {
+  margin-top: 12px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 350px) {
+  .add-shipment-div input {
+    width: 100px;
+  }
+}
+@media (min-width: 430px) {
+  .add-shipment-div {
+    width: 400px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .add-shipment-div input {
+    width: 150px;
+  }
+}
